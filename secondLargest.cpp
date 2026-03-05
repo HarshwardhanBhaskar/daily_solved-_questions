@@ -4,12 +4,12 @@ class Solution {
     public:
     int secondLargest(vector<int>&arr){
         int n=arr.size();
-        int largest=-1,secondLargest=-1;
+        int largest=INT_MIN,secondLargest=INT_MIN;
         for(int i=0;i<n;i++){
             if(arr[i]>largest){
                 secondLargest=largest;
                 largest=arr[i];
-            }if(arr[i]>secondLargest && arr[i]!=largest){
+            }else if(arr[i]>secondLargest && arr[i]!=largest){
                 secondLargest=arr[i];
             }
 

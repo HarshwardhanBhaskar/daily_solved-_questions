@@ -25,4 +25,6 @@ int main(){
     Solution s;
     cout<<s.maxAbsolute(nums)<<endl;
     return 0;
+    
+    
 }

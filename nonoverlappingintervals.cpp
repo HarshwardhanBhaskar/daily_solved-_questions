@@ -29,6 +29,6 @@ int main(){
         cin>>intervals[i][0]>>intervals[i][1];
     }
     Solution s;
-    cout<<s.eraseOverlapIntervals(intervals)<<endl;
+    cout<<s.eraseOverlapIntervals(intervals)<<endl; 
     return 0;
 }

@@ -1,4 +1,4 @@
-// simply transpose type 
+// simply transpose type but not completely transpose and then reverse each row to get the final result
 #include<bits/stdc++.h>
 using namespace std;    
 class Solution{
